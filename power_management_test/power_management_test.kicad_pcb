@@ -3765,7 +3765,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
-		(path "/46bf3942-6376-494e-ba4b-d42e3188b7d3")
+		(path "/4e402079-ef0b-4707-8d85-5a95add6a19a")
 		(sheetname "/")
 		(sheetfile "power_management_test.kicad_sch")
 		(attr through_hole)
@@ -5459,7 +5459,7 @@
 			)
 		)
 		(property "Value" "1K ±1%"
-			(at 0 1.43 90)
+			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "3d8e80e6-ed51-4741-a6c9-43b3fe15783e")
 			(effects
@@ -10139,8 +10139,8 @@
 		(uuid "ea3cb351-dfb6-4d14-b368-dac0b4dd6bf5")
 	)
 	(gr_circle
-		(center 116.36 42.55)
-		(end 117.91 42.55)
+		(center 116.36 41.75)
+		(end 117.91 41.75)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -10183,8 +10183,8 @@
 		(uuid "d5224708-1f76-477b-9952-db4ebfc8c01f")
 	)
 	(gr_circle
-		(center 172.72 42.55)
-		(end 174.27 42.55)
+		(center 174.27 41.75)
+		(end 175.82 41.75)
 		(stroke
 			(width 0.0381)
 			(type solid)
@@ -10983,7 +10983,7 @@
 		(uuid "17644061-67bf-4acf-bdc4-5f49ef4fda11")
 	)
 	(via
-		(at 154.875 55.175)
+		(at 154.975 55.175)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
@@ -11151,6 +11151,14 @@
 		(uuid "6efab232-4a96-4162-811e-5cd59596d2c5")
 	)
 	(via
+		(at 153.7 57.04)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "6ff23fcc-37d8-4d8e-a250-ef205f97c026")
+	)
+	(via
 		(at 156.35 70.425)
 		(size 0.4572)
 		(drill 0.254)
@@ -11189,6 +11197,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "a8b52e79-3c63-4ce1-9acf-752d9c7ff8f4")
+	)
+	(via
+		(at 154.975 57.05)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(net 2)
+		(uuid "a91910eb-511e-49c2-b7c4-7f52f526714e")
 	)
 	(via
 		(at 152.605 69.67)
@@ -12708,17 +12724,18 @@
 			"64143dec-1b65-4326-8dcc-11d7f467312c" "6555eda7-5bfd-41b6-8f64-28ba179ef53b"
 			"679284fa-f116-4037-9033-936ca5f49932" "68314656-bb3b-4fb5-81dc-23c74f575226"
 			"698a6930-56ab-4c7f-bbcf-b6e783ebc6c7" "6cacf41c-fdf1-4c91-808a-ab35c01efb00"
-			"6d03517e-98f5-4965-a1ff-4bb561df1ccf" "75bce750-dc16-4c29-96a1-e55c99cd753f"
-			"76ff59b6-bdb9-4ee5-bd88-98614829ab55" "7c2aad7e-4f61-4fee-8d22-193b2fda1413"
-			"7d94a0c6-e700-4f01-b273-26b251cfd69c" "7f6bbad4-21d3-4b2c-9840-d1d71c267418"
-			"805bae53-9bb4-40e0-b01f-ea7e2b2b2be4" "83a35f73-584a-4fe8-b6cc-5fd4995108a6"
-			"85853fd9-e3e6-4343-b8e7-f3e5fa30194d" "8593d987-0a89-4e69-a862-49239f76fa10"
-			"88aecfcb-98b6-4834-853c-bda51cd0de7b" "8acbbf5b-ab8e-44c1-aad5-5d53b1eccedc"
-			"8d608e4b-4501-4514-b2fe-f0d025f3d54e" "8fab6524-5f5f-47f3-9e66-a8ca4bad1fbd"
-			"8fee475b-c6a7-4e49-84d6-82f4c07876a4" "90a4a13b-63bf-44fe-a234-9bee60a90865"
-			"98ca69bb-6327-42cc-95b2-dd71ab7fcf6a" "98e86bba-b816-471a-8155-a6f8ac221e02"
-			"a02ad088-c190-46c6-9054-a5127999e304" "a4468a34-2b1b-4466-a483-4c178fc54412"
-			"a4a0d5c5-15dc-43de-9b64-6aba33e9cce0" "a5fb4d26-38ac-4b3e-bc56-230ab191903f"
+			"6d03517e-98f5-4965-a1ff-4bb561df1ccf" "6ff23fcc-37d8-4d8e-a250-ef205f97c026"
+			"75bce750-dc16-4c29-96a1-e55c99cd753f" "76ff59b6-bdb9-4ee5-bd88-98614829ab55"
+			"7c2aad7e-4f61-4fee-8d22-193b2fda1413" "7d94a0c6-e700-4f01-b273-26b251cfd69c"
+			"7f6bbad4-21d3-4b2c-9840-d1d71c267418" "805bae53-9bb4-40e0-b01f-ea7e2b2b2be4"
+			"83a35f73-584a-4fe8-b6cc-5fd4995108a6" "85853fd9-e3e6-4343-b8e7-f3e5fa30194d"
+			"8593d987-0a89-4e69-a862-49239f76fa10" "88aecfcb-98b6-4834-853c-bda51cd0de7b"
+			"8acbbf5b-ab8e-44c1-aad5-5d53b1eccedc" "8d608e4b-4501-4514-b2fe-f0d025f3d54e"
+			"8fab6524-5f5f-47f3-9e66-a8ca4bad1fbd" "8fee475b-c6a7-4e49-84d6-82f4c07876a4"
+			"90a4a13b-63bf-44fe-a234-9bee60a90865" "98ca69bb-6327-42cc-95b2-dd71ab7fcf6a"
+			"98e86bba-b816-471a-8155-a6f8ac221e02" "a02ad088-c190-46c6-9054-a5127999e304"
+			"a4468a34-2b1b-4466-a483-4c178fc54412" "a4a0d5c5-15dc-43de-9b64-6aba33e9cce0"
+			"a5fb4d26-38ac-4b3e-bc56-230ab191903f" "a91910eb-511e-49c2-b7c4-7f52f526714e"
 			"aaed1b2b-a6b0-4b21-96c3-5ffc994fa78b" "ac5a40e7-2e43-439a-b7c7-b5cb99fb4354"
 			"b233dc88-5016-45ac-a83a-467caf2b49c6" "b4d442ac-2e01-413e-8ccc-066d89dcbc97"
 			"b4e7cc68-7250-49da-8488-752fb16388d2" "b5091632-edf6-427a-b201-c657e2bfdb21"
