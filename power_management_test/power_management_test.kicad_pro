@@ -514,8 +514,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "/Users/ericoliviera/Desktop/VAK/Loam/power_management_test/Gerbers_And_Drills/",
+      "pos_files": "/Users/ericoliviera/Desktop/VAK/Loam/power_management_test/BOM_And_CPL/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -525,7 +525,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "/Users/ericoliviera/Desktop/power_management_test.csv",
+    "bom_export_filename": "/Users/ericoliviera/Desktop/VAK/Loam/power_management_test/BOM_And_CPL/BOM_power_management_test.kicad_pcb.lck.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
