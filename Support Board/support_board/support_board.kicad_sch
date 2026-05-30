@@ -1,0 +1,240 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a27a0383-1f9a-4fd1-ac31-ce73f638ee85")
+	(paper "User" 298.45 217.322)
+	(lib_symbols)
+	(sheet
+		(at 25.4 91.44)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f75b9dd-b42a-4af7-85c1-d7271f8d7bfa")
+		(property "Sheetname" "Switch"
+			(at 25.4 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch.kicad_sch"
+			(at 25.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "support_board"
+				(path "/a27a0383-1f9a-4fd1-ac31-ce73f638ee85"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 156.21)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82bbc2ed-b886-483f-9163-240e584b498f")
+		(property "Sheetname" "power"
+			(at 25.4 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25.4 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 25.4 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "support_board"
+				(path "/a27a0383-1f9a-4fd1-ac31-ce73f638ee85"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9070e028-d0e8-4829-8d65-e11a04f3cc34")
+		(property "Sheetname" "GPS"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 25.4 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "support_board"
+				(path "/a27a0383-1f9a-4fd1-ac31-ce73f638ee85"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 58.42)
+		(size 38.1 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac888b7f-18d3-469e-a8d4-fcf0c2b24830")
+		(property "Sheetname" "nRF"
+			(at 25.4 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nrf.kicad_sch"
+			(at 25.4 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "support_board"
+				(path "/a27a0383-1f9a-4fd1-ac31-ce73f638ee85"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 125.73)
+		(size 38.1 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb3e3963-60c2-4bf2-a920-9f1f4814b204")
+		(property "Sheetname" "connectors"
+			(at 25.4 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 25.4 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 25.4 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "support_board"
+				(path "/a27a0383-1f9a-4fd1-ac31-ce73f638ee85"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
