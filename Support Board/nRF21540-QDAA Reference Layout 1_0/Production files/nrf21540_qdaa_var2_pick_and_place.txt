@@ -1,0 +1,26 @@
+Altium Designer Pick and Place Locations
+D:\svn\applications\reference_layouts\nrf21540_qdaa\trunk\production_files\nrf21540_qdaa_var2_pick_and_place.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       01.07.21
+Time:       22:50
+Revision:   21342
+Variant:    No variations
+Units used: mil
+
+Designator Comment       Layer    Footprint               Center-X(mil) Center-Y(mil) Rotation Description                                   
+R1         2k2           TopLayer RESC0603X03L_C          93.504        114.475       270      "Resistor, ±1%, 0.05W"                        
+L1         1.9nH         TopLayer INDC0603X03L_C          141.775       -47.792       0        "Inductor, 600mA, ±0.1nH, 120mOhm"            
+L3         1.9nH         TopLayer INDC0603X03L_C          141.775       47.798        0        "Inductor, 600mA, ±0.1nH, 120mOhm"            
+C3         1.0pF         TopLayer CAPC0603X03L_C          206.718       -80.118       90       "Capacitor, NP0, ±0.05pF, 50V"                
+C2         2.0pF         TopLayer CAPC0603X03L_C          152.568       -80.118       90       "Capacitor, NP0, ±0.05pF, 25V"                
+C4         2.0pF         TopLayer CAPC0603X03L_C          152.568       79.861        270      "Capacitor, NP0, ±0.05pF, 25V"                
+C5         1.0pF         TopLayer CAPC0603X03L_C          206.718       79.861        270      "Capacitor, NP0, ±0.05pF, 50V"                
+L2         3.0nH         TopLayer INDC0603X03L_C          189.646       -47.792       0        "Inductor, 600mA, ±0.1nH, 120mOhm"            
+L4         3.0nH         TopLayer INDC0603X03L_C          189.646       47.798        0        "Inductor, 600mA, ±0.1nH, 120mOhm"            
+C1         1.0pF         TopLayer CAPC0603X03L_C          -150.000      12.795        0        "Capacitor, NP0, ±0.05pF, 50V"                
+C7         10µF          TopLayer CAPC1608X06L            17.449        172.331       0        "Capacitor, X5R, ±20%"                        
+C6         100nF         TopLayer CAPC0603X03L_C          25.000        135.000       0        "Capacitor, X5R, ±10%"                        
+U1         nRF21540-QDAA TopLayer QFN65P400X400X65_HS-17N 0.000         0.000         180      "Radio front-end / range extender for 2.4GHz" 

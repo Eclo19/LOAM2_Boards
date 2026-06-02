@@ -2418,16 +2418,16 @@
 		(uuid "930b25d3-92d1-460f-b019-08b0ac33ec48")
 	)
 	(junction
+		(at 60.96 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "971a1ff3-42ce-4a77-a155-1c7143140a0f")
+	)
+	(junction
 		(at 125.73 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d4fdcca-31f8-4b81-bd09-ce24b861dc04")
-	)
-	(junction
-		(at 60.96 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5ebcc2e-7dd7-4119-9d92-111ff8d46f26")
 	)
 	(junction
 		(at 138.43 38.1)
@@ -2532,16 +2532,6 @@
 			(type default)
 		)
 		(uuid "005e6492-1a80-43f7-9920-e67d4f84a155")
-	)
-	(wire
-		(pts
-			(xy 60.96 149.86) (xy 72.39 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01dc2b7a-076d-4582-95cc-3dc941022daa")
 	)
 	(wire
 		(pts
@@ -3362,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "882ecad2-5d29-49ea-83e9-c6243855d40a")
+	)
+	(wire
+		(pts
+			(xy 60.96 149.86) (xy 71.12 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8933c3f4-dc78-404f-9bd8-f867a0a210dc")
 	)
 	(wire
 		(pts
@@ -10821,7 +10821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34fd58a-9513-419e-a765-ebbde4ed8e19")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0101"
 			(at 212.725 49.53 0)
 			(effects
 				(font
@@ -10872,7 +10872,7 @@
 		(instances
 			(project "support_board"
 				(path "/a27a0383-1f9a-4fd1-ac31-ce73f638ee85/82bbc2ed-b886-483f-9163-240e584b498f"
-					(reference "#FLG01")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
