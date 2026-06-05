@@ -39,4 +39,8 @@ The drone MCU in the suppoart board is programmed through an SWD interface.
 
 The support board hosts multiple connectors that should be tightly packed in a harness connected to the FMU. These include the following ports: GPS, TELEM2, SWITCH, and POWER. Our initial connector selection was a DF13, but these are not fully compatible. We believe the correct connectors are JST. For testing and debugging reasons, it is helpful to pack debup taps for many essential nodes in the system (e.g. 3V3, 5V, CURRENT_SENSE, RX_GPS, etc). 
 
+## Layout Notes
+
+The layout of the support board has just started at the time of this README.md file. Like in the power management test board, the support board has DRCs from JLC PCB, imported from https://github.com/sethhillbrand/kicad_templates/tree/master. This board has 4 layers though, as opposed to the simple 2-layer power management tests board. 
+
 
